@@ -18,7 +18,5 @@ public class Balok extends GObject3D {
     @Override
     public double hitungVolume() {
         return 10;
-    }
-
-    
+    }    
 }
