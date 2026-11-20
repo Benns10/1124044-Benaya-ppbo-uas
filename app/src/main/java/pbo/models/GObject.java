@@ -1,9 +1,9 @@
 package pbo;
 
-abstract class GObject implements Identifiable<String> {
+abstract class GObject implements KeyValueDetailable {
     private String label;
 
-    public Menu(String label) {
+    public GObject(String label) {
         this.label = label;
     }
 
