@@ -5,7 +5,8 @@ import java.util.List;
 import java.models.*;
 
 public class PrintUtil {
-    public static <T> void cetakSemua(List<T> items) {
+    
+    public static <T> void PrintGObjectDetail(List<T> items) {
         if (items.isEmpty()) {
             System.out.println("Data masih kosong.");
             return;
