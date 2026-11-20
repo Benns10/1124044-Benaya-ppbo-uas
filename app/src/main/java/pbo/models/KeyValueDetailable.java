@@ -1,0 +1,5 @@
+package pbo;
+
+interface KeyValueDetailable {
+
+}
